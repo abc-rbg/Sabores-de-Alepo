@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sabores de Alepo</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header" role="banner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">SA</div>
+        <div>
+          <div class="site-title">Sabores de Alepo</div>
+          <div class="site-subtitle">Cozinha, história e receitas</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="Sobre Alepo.html">Sobre Alepo</a>
+        <a href="História de Alepo em comida.html">História</a>
+        <a href="Ingredientes e os componentes.html">Ingredientes</a>
+        <a href="pequeno almoço.html">Pequeno Almoço</a>
+        <a href="pratos principais.html">Pratos Principais</a>
+        <a href="Doces e sobremesas.html">Doces</a>
+        <a href="Encomendar.html">Encomendar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="card">
+          <h1 id="hero-title">Bem-vindo aos Sabores de Alepo</h1>
+          <p class="muted">Explore receitas tradicionais, ingredientes autênticos e a história por trás dos pratos.</p>
+          <p class="lead">Adicione imagens e vídeos nas páginas específicas para enriquecer o conteúdo.</p>
+        </div>
+
+        <aside class="card aside-media" aria-label="Destaque">
+          <div class="media">Espaço para vídeo ou imagem principal</div>
+          <div class="muted small">Destaques: pratos sazonais, encomendas e eventos.</div>
+        </aside>
+      </section>
+
+      <section class="grid" aria-label="Destaques">
+        <article class="card">
+          <h3>Pratos Principais</h3>
+          <p>Receitas tradicionais e variações modernas.</p>
+        </article>
+
+        <article class="card">
+          <h3>Doces e Sobremesas</h3>
+          <p>Baklava, knafeh e outras delícias.</p>
+        </article>
+
+        <article class="card">
+          <h3>Ingredientes</h3>
+          <p>Especiarias, nozes, azeites e técnicas.</p>
+        </article>
+
+        <article class="card">
+          <h3>Encomendar</h3>
+          <p>Faça encomendas para eventos e entregas.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer-inner">
+        <div>© <span id="ano"></span> Sabores de Alepo — Todos os direitos reservados</div>
+        <div class="contacts">
+          <div>Email: <a href="mailto:saboresdealepo@gmail.com">saboresdealepo@gmail.com</a></div>
+          <div>Telefone: <a href="tel:+351930668018">930 668 018</a></div>
+          <div><strong>Morada:</strong> Rua da Cavada, 45, 4510-526 Gondomar, Portugal</div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
